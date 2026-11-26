@@ -1,3 +1,4 @@
+<img width="1200" height="630" alt="portfolio-partilha-1200x630" src="https://github.com/user-attachments/assets/643be96d-d83a-40ba-b838-a81d09380e8d" />
 # Portfólio | Tomás Custódio
 
 Portfólio pessoal feito com React e TypeScript. Apresenta quem sou, os projetos que desenvolvi, as minhas skills e onde me encontrar nas redes.
