@@ -112,6 +112,7 @@ h3 { font-size: 18px; }
   max-width: 500px;
   margin: 0 auto 20px;
   line-height: 1.6;
+  text-align: center;
   color: var(--ink-soft);
 }
 
@@ -160,6 +161,7 @@ h3 { font-size: 18px; }
 
 .home-secao p {
   line-height: 1.4rem;
+  text-align: justify;
   color: var(--text-soft);
 }
 
