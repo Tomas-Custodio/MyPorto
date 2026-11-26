@@ -414,3 +414,121 @@ h3 { font-size: 18px; }
   color: #000;
   margin-bottom: 8px;
 }
+
+
+/* ========== RESPONSIVO ========== */
+
+/* base: evita que o conteúdo empurre a página para o lado */
+.main-content {
+  min-width: 0;
+}
+
+/* ecrãs muito grandes: o conteúdo não estica demais */
+.home,
+.links,
+.skills {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+/* ---------- Tablet e telemóvel (até 768px) ---------- */
+@media (max-width: 768px) {
+
+  /* sidebar passa a barra no topo */
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    gap: 4px;
+    overflow-x: auto;
+  }
+
+  .sidebar a {
+    flex-shrink: 0;
+    border-left: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .sidebar a:hover {
+    border-left-color: transparent;
+    border-bottom-color: var(--yellow);
+  }
+
+  .main-content {
+    padding: 16px;
+  }
+
+  /* o texto justificado fica com buracos em ecrãs estreitos */
+  p {
+    text-align: left;
+  }
+
+  .home-secao {
+    margin-top: 36px;
+  }
+
+  .home-cards {
+    gap: 12px;
+  }
+}
+
+
+/* ---------- Telemóvel (até 480px) ---------- */
+@media (max-width: 480px) {
+
+  h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 17px; }
+
+  .main-content {
+    padding: 12px;
+  }
+
+  .home-hero {
+    padding: 28px 16px;
+  }
+
+  .home-hero h1 {
+    font-size: 26px;
+  }
+
+  /* botões um por baixo do outro, na largura toda */
+  .home-botoes {
+    flex-direction: column;
+  }
+
+  .botao,
+  .botao-secundario {
+    display: block;
+    text-align: center;
+  }
+
+  /* um card por linha */
+  .home-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    min-width: 0;
+  }
+
+  .links-cards,
+  .skills-grupos {
+    grid-template-columns: 1fr;
+  }
+
+  .login {
+    padding: 16px;
+  }
+}
