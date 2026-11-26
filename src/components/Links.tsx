@@ -36,7 +36,7 @@ export default function Links() {
 
         <a
           className="card-link"
-          href="https://instagram.com/o_teu_usuario"
+          href="https://www.instagram.com/tomascustodio17/"
           target="_blank"
           rel="noreferrer"
         >
