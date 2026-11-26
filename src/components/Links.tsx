@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+
 export default function Links() {
 
   return (
@@ -16,6 +18,7 @@ export default function Links() {
           target="_blank"
           rel="noreferrer"
         >
+          <FaLinkedin className="icone-link" />
           <h3>LinkedIn</h3>
           <p>O meu perfil profissional.</p>
         </a>
@@ -26,6 +29,7 @@ export default function Links() {
           target="_blank"
           rel="noreferrer"
         >
+          <FaGithub className="icone-link" />
           <h3>GitHub</h3>
           <p>O meu código e projetos.</p>
         </a>
@@ -36,6 +40,7 @@ export default function Links() {
           target="_blank"
           rel="noreferrer"
         >
+          <FaInstagram className="icone-link" />
           <h3>Instagram</h3>
           <p>Dicas e conteúdo sobre programação.</p>
         </a>

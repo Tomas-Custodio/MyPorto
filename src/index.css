@@ -405,3 +405,12 @@ h3 { font-size: 18px; }
   color: var(--blue);
   margin-bottom: 8px;
 }
+
+
+.icone-link {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: #000;
+  margin-bottom: 8px;
+}
